@@ -8,6 +8,7 @@ Qiling Framework also provides a friendly tool named `qltool` to quickly emulate
 `qltool` has three available commands:
 - `run`: to emulate a program binary
 - `code`: to execute a shellcode excerpt
+- `qltui`: to show terminal user interface for qltool
 - `examples`: to emit usage examples
 
 ## Run Options
@@ -248,6 +249,26 @@ Notes:
     </tbody>
 </table>
 
+## qltui
+
+A Terminal User Interface for `qltool`.
+
+-   Runs on top of  `qltool`.
+-   Accept data using an interface for  `run`  and  `code`  commands.
+-   Returns an  `Argparse Namespace`  object back to  `qltool`  for execution.
+-   Interactive report viewer plus an option to save it as a pdf.
+
+### qltui in action
+<p>
+<img width="400" alt="Screenshot 2022-09-11 at 9 38 02 PM" src="https://user-images.githubusercontent.com/47586886/190855539-58cb9c0d-b919-488b-968a-fa08220d00e3.png">
+<img width="400" alt="Screenshot 2022-09-11 at 9 38 34 PM" src="https://user-images.githubusercontent.com/47586886/190855606-a11b6f0d-3f64-43ec-8e36-86eb12100488.png">
+<img width="400" alt="Screenshot 2022-09-11 at 9 39 31 PM" src="https://user-images.githubusercontent.com/47586886/190855636-15aeb7e8-9d0e-445f-9595-125c27c5c9d7.png">
+<img width="400" alt="Screenshot 2022-09-11 at 9 39 27 PM" src="https://user-images.githubusercontent.com/47586886/190855619-df15d7a5-4ba1-41f1-b41f-f95bbaabc3d3.png">
+<img width="400" alt="Screenshot 2022-09-11 at 9 39 39 PM" src="https://user-images.githubusercontent.com/47586886/190855652-98f499d5-21e2-4677-8f70-7e3551bb288a.png">
+<img width="400" alt="Screenshot 2022-09-11 at 9 40 40 PM" src="https://user-images.githubusercontent.com/47586886/190855668-17f7b083-3968-4a03-9a51-10857ed653bc.png">
+<img width="400" alt="Screenshot 2022-09-11 at 9 42 37 PM" src="https://user-images.githubusercontent.com/47586886/190855689-561d57ac-2238-4d5c-8be6-e80bb3ff4b56.png">
+</p>
+
 ## Examples
 
 ### shellcode:
@@ -292,4 +313,9 @@ $ ./qltool run -f examples/rootfs/mips32el_linux/bin/mips32el_hello --rootfs exa
 ### Binary file and env:
 ```bash
 $ ./qltool run -f jexamples/rootfs/x8664_linux/bin/tester --rootfs jexamples/rootfs/x8664_linux --env '{"LD_PRELOAD":"hijack.so"}' --verbose debug
+```
+
+### qltui
+```bash
+$ ./qltool qltui
 ```
