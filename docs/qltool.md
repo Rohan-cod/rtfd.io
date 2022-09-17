@@ -259,13 +259,13 @@ A Terminal User Interface for `qltool`.
 -   Interactive report viewer plus an option to save it as a pdf.
 
 ### qltui in action
-[![](img/qltui1.png){: style="height:auto;width:400;display:block;margin:left"}](img/qltui1.png)
-[![](img/qltui2.png){: style="height:auto;width:400;display:block;margin:left"}](img/qltui2.png)
-[![](img/qltui3.png){: style="height:auto;width:400;display:block;margin:left"}](img/qltui3.png)
-[![](img/qltui4.png){: style="height:auto;width:400;display:block;margin:left"}](img/qltui4.png)
-[![](img/qltui5.png){: style="height:auto;width:400;display:block;margin:left"}](img/qltui5.png)
-[![](img/qltui6.png){: style="height:auto;width:400;display:block;margin:left"}](img/qltui6.png)
-[![](img/qltui7.png){: style="height:auto;width:400;display:block;margin:left"}](img/qltui7.png)
+[![](img/qltui1.png){: style="height:auto;width:400px;display:block;margin:left"}](img/qltui1.png)
+[![](img/qltui2.png){: style="height:auto;width:400px;display:block;margin:left"}](img/qltui2.png)
+[![](img/qltui3.png){: style="height:auto;width:400px;display:block;margin:left"}](img/qltui3.png)
+[![](img/qltui4.png){: style="height:auto;width:400px;display:block;margin:left"}](img/qltui4.png)
+[![](img/qltui5.png){: style="height:auto;width:400px;display:block;margin:left"}](img/qltui5.png)
+[![](img/qltui6.png){: style="height:auto;width:400px;display:block;margin:left"}](img/qltui6.png)
+[![](img/qltui7.png){: style="height:auto;width:400px;display:block;margin:left"}](img/qltui7.png)
 
 ## Examples
 
